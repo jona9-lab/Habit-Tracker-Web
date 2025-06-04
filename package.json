@@ -1,0 +1,19 @@
+{
+    "name": "habit-tracker-server",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "A habit tracker API for managing user habits, tracking streaks, and logging completions.",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "mysql2": "^3.14.0",
+        "body-parser": "^2.2.0"
+    }
+}
